@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VerticalLayout xmlns="urn:import:com.vaadin.ui" xmlns:l="urn:vaadin:parent" margin="true" spacing="true">
 	<Link id="twitterLink" caption="Get PIN" targetName="twitterauth" />
-	<TextField inputPrompt="PIN" />
+	<TextField id="pin" inputPrompt="PIN" />
 	<Button id="submitButton" caption="Submit" />
 </VerticalLayout>
